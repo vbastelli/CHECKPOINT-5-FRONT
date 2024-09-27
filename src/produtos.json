@@ -1,0 +1,56 @@
+[
+    {
+        "nome": "Tesla Branco",
+        "descricao": "Ideal para longas viagens.",
+        "preco": "R$ 160.000",
+        "imagem": "carroeletrico1.jpg"
+    },
+    {
+        "nome": "BYD Dolphina Amarelo",
+        "descricao": "O mais eficiente da categoria.",
+        "preco": "R$ 120.000",
+        "imagem": "carroeletrico2.jpg"
+    },
+    {
+        "nome": "Tesla Preto",
+        "descricao": "Design moderno e sustentável.",
+        "preco": "R$ 175.000",
+        "imagem": "carroeletrico3.webp"
+    },
+    {
+        "nome": "SUV Elétrico Preto",
+        "descricao": "Potente e elegante para qualquer terreno.",
+        "preco": "R$ 200.000",
+        "imagem": "carro4.webp"
+    },
+    {
+        "nome": "SUV Elétrico Branco",
+        "descricao": "Conforto e sofisticação em um SUV elétrico.",
+        "preco": "R$ 195.000",
+        "imagem": "carro5.webp"
+    },
+    {
+        "nome": "Fiat 500 Elétrico",
+        "descricao": "Compacto, ágil e 100% elétrico.",
+        "preco": "R$ 140.000",
+        "imagem": "carro6.webp"
+    },
+    {
+        "nome": "Carro Elétrico Compacto",
+        "descricao": "Perfeito para a cidade e fácil de estacionar.",
+        "preco": "R$ 90.000",
+        "imagem": "carro7.webp"
+    },
+    {
+        "nome": "Carro Elétrico Compacto Moderno",
+        "descricao": "Tecnologia avançada em um design compacto.",
+        "preco": "R$ 110.000",
+        "imagem": "carro8.jpg"
+    },
+    {
+        "nome": "Carro Vermelho Elétrico Bizarro",
+        "descricao": "Design excêntrico e diversão garantida.",
+        "preco": "R$ 80.000",
+        "imagem": "carro9.webp"
+    }
+]

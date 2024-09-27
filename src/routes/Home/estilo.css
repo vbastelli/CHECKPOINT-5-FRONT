@@ -1,0 +1,77 @@
+/* Slideshow */
+.slideshow {
+    overflow: hidden; /* Garante que nada ultrapasse os limites do slideshow */
+}
+
+.slideshow img {
+    width: 100%;
+    height: auto; /* Mantém a proporção da imagem */
+    max-height: 600px; /* Altura máxima para as imagens do carrossel */
+    object-fit: contain; /* Ajusta a imagem sem cortar */
+}
+
+/* Removido o estilo da legenda */
+.carousel-caption {
+    display: none; /* Alternativa para ocultar a legenda, caso não queira remover o código */
+}
+
+/* Estilo das setas do carrossel */
+.carousel-control-prev, .carousel-control-next {
+    background-color: rgba(0, 0, 0, 0.5); /* Fundo escuro para as setas */
+    border-radius: 50%; /* Torna as setas redondas */
+}
+
+.carousel-control-prev-icon, .carousel-control-next-icon {
+    background-color: #000; /* Cor das setas (preto) */
+}
+
+/* O restante do seu CSS permanece o mesmo */
+
+/* Cards de Produtos */
+.products-section {
+    padding: 70px 70px;
+    background-color: #e9f5e9; /* Fundo verde suave */
+}
+
+.product-card {
+    margin-bottom: 30px;
+    border: none;
+    transition: transform 0.3s;
+}
+
+.product-card:hover {
+    transform: scale(1.05); /* Efeito de zoom ao passar o mouse */
+}
+
+.product-card img {
+    height: 200px;
+    object-fit: cover; /* Corta a imagem mantendo a proporção */
+}
+
+.card-title {
+    font-size: 1.5rem;
+    color: #28a745; /* Verde forte */
+}
+
+.price {
+    font-size: 1.25rem;
+    color: #006400; /* Verde escuro */
+}
+
+/* Seção Sobre */
+.about-section {
+    padding: 50px 30px;
+    background-color: #e8ffe8; /* Fundo ainda mais claro */
+    margin-bottom: 50px;
+}
+
+.about-section h2 {
+    color: #28a745; /* Verde principal */
+}
+
+.about-section p {
+    font-size: 1.2rem;
+    color: #343a40; /* Cor neutra do texto */
+    max-width: 800px;
+    margin: 0 auto;
+}

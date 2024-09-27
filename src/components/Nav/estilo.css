@@ -1,0 +1,66 @@
+body {
+    font-family: 'Arial', sans-serif; /* Fontes elegantes */
+    margin: 0;
+    padding: 0;
+    background-color: #f8f9fa; /* Fundo suave */
+}
+
+.navbar {
+    background-color: #343a40; /* Cor de fundo escura */
+    border-bottom: 2px solid #007bff; /* Borda inferior azul */
+}
+
+.navbar .navbar-brand {
+    font-size: 2.4rem; /* Tamanho da fonte da marca */
+    color: #000000; /* Cor da fonte */
+}
+
+
+.navbar-nav .nav-link {
+    font-size: 25px;
+    color: #343a40; /* Cor dos links em telas maiores */
+    padding: 10px 15px; /* Espaçamento */
+}
+
+.navbar-nav .nav-link:hover {
+    color: #007bff; /* Cor dos links ao passar o mouse */
+    background-color: rgba(0, 123, 255, 0.1); /* Efeito de hover */
+    border-radius: 5px; /* Bordas arredondadas */
+}
+
+.navbar-toggler {
+    border: none; /* Remove borda do botão de toggler */
+}
+
+.navbar-toggler-icon {
+    background-color: #ffffff; /* Cor do ícone do toggler */
+}
+
+.shadow {
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Sombra sutil */
+}
+
+.nav-item {
+    margin-right: 15px;
+    margin-left: 15px;
+}
+
+/* Tornar a navegação mais compacta em dispositivos menores */
+@media (max-width: 768px) {
+    .navbar-nav {
+        text-align: center; /* Centraliza os links no mobile */
+    }
+
+    .nav-item {
+        margin: 0; /* Remove margens laterais para não sobrecarregar o layout */
+        padding: 10px 0; /* Adiciona espaçamento vertical entre os itens */
+    }
+
+    .navbar-brand {
+        font-size: 1.25rem; /* Ajusta o tamanho da marca para dispositivos menores */
+    }
+
+    .navbar-toggler {
+        padding: 0.25rem 0.75rem; /* Ajuste de padding no botão de toggler */
+    }
+}

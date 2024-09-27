@@ -1,0 +1,63 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%; /* Faz com que o HTML e o body ocupem 100% da altura da janela */
+}
+
+body {
+    display: flex; /* Usar flexbox para estruturar o layout */
+    flex-direction: column; /* Alinha os itens em coluna */
+}
+
+.app {
+    display: flex;
+    flex-direction: column; 
+    min-height: 100vh; /* Garante que o contêiner principal ocupe toda a altura da viewport */
+}
+
+.main-content {
+    flex: 1; /* Faz com que esta seção ocupe o espaço restante */
+    padding: 20px; /* Adiciona espaçamento interno */
+    background-color: #f8f9fa; /* Cor de fundo suave */
+}
+
+.footer {
+    background-color: #343a40; /* Cor de fundo escura */
+    padding: 20px 0; /* Espaçamento superior e inferior */
+    color: #ffffff; /* Cor do texto */
+}
+
+.social-icons {
+    display: flex;
+    justify-content: center; /* Centraliza os ícones */
+    gap: 20px; /* Espaçamento entre os ícones */
+    margin-bottom: 10px; /* Espaçamento entre ícones e o copyright */
+}
+
+.social-icon {
+    font-size: 1.5rem; /* Tamanho dos ícones */
+    color: #ffffff; /* Cor padrão dos ícones */
+    transition: color 0.3s ease; /* Efeito suave ao passar o mouse */
+}
+
+.social-icon:hover {
+    color: #007bff; /* Cor dos ícones ao passar o mouse */
+}
+
+.copyright {
+    margin-top: 10px;
+    font-size: 0.9rem; /* Tamanho do texto */
+    color: #cccccc; /* Cor do texto mais claro */
+}
+
+/* Responsividade para dispositivos menores */
+@media (max-width: 768px) {
+    .social-icons {
+        flex-direction: column; /* Exibe ícones em coluna em telas menores */
+        gap: 10px; /* Diminui o espaçamento entre os ícones */
+    }
+}

@@ -1,0 +1,65 @@
+.container-form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.cadastrar-produto {
+    max-width: 600px;
+    margin: 2rem auto; /* Centraliza o formulário */
+    padding: 2rem;
+    border: 1px solid #ccc; /* Borda do formulário */
+    border-radius: 8px; /* Bordas arredondadas */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Sombra para o efeito de elevação */
+    background-color: #f9f9f9; /* Fundo claro */
+}
+
+.cadastrar-produto h2 {
+    text-align: center;
+    margin-bottom: 1.5rem; /* Espaço abaixo do título */
+}
+
+.cadastrar-produto input {
+    width: 100%; /* Faz o input ocupar toda a largura do formulário */
+    padding: 0.75rem; /* Espaçamento interno */
+    margin: 0.5rem 0; /* Espaçamento acima e abaixo de cada input */
+    border: 1px solid #ccc; /* Borda padrão */
+    border-radius: 4px; /* Bordas arredondadas nos inputs */
+    font-size: 1rem; /* Tamanho da fonte */
+}
+
+.cadastrar-produto-button {
+    width: 100%; /* Botão ocupa toda a largura */
+    padding: 0.75rem; /* Espaçamento interno do botão */
+    margin-top: 1rem; /* Espaçamento acima do botão */
+    border: none; /* Remove bordas */
+    border-radius: 4px; /* Bordas arredondadas no botão */
+    background-color: #28a745; /* Cor de fundo verde */
+    color: white; /* Cor do texto do botão */
+    font-size: 1rem; /* Tamanho da fonte */
+    cursor: pointer; /* Cursor de ponteiro ao passar sobre o botão */
+    transition: background-color 0.3s ease; /* Transição suave */
+}
+
+.cadastrar-produto-button:hover {
+    background-color: #218838; /* Cor do botão ao passar o mouse */
+}
+
+/* Estilo para o botão de remoção */
+.btn-remove {
+    width: 100%; /* Botão ocupa toda a largura */
+    padding: 0.75rem; /* Espaçamento interno do botão */
+    margin-top: 1rem; /* Espaçamento acima do botão */
+    border: none; /* Remove bordas */
+    border-radius: 4px; /* Bordas arredondadas no botão */
+    background-color: #e00a1f; /* Cor de fundo verde */
+    color: white; /* Cor do texto do botão */
+    font-size: 1rem; /* Tamanho da fonte */
+    cursor: pointer; /* Cursor de ponteiro ao passar sobre o botão */
+    transition: background-color 0.3s ease; /* Transição suave */
+}
+
+.btn-remove:hover {
+    background-color: #8d1010; /* Cor mais escura ao passar o mouse */
+}
